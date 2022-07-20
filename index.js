@@ -36,7 +36,7 @@ const questions = [
         Choices: ['Apache 2.0', 'Boost Software', 'IBM Public', 'MIT', 'Mozilla Public']
     },
     {
-        message: 'How is your project?',
+        message: 'How is your project used?',
         name: 'usage'
     },
     {
