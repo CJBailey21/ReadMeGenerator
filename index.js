@@ -3,6 +3,7 @@ const inquirer = require('inquirer')
 const fs = require('fs');
 const Choices = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown');
+const Choice = require('inquirer/lib/objects/choice');
 // TODO: Create an array of questions for user input
 // generate questions
 const questions = [
@@ -31,9 +32,10 @@ const questions = [
         name: 'email'
     },
     {
+        type: 'list',
         message: 'choose a license',
         name: 'license',
-        Choices: ['Apache 2.0', 'Boost Software', 'IBM Public', 'MIT', 'Mozilla Public']
+        choices: ['Apache 2.0', 'Boost Software', 'IBM Public', 'MIT', 'Mozilla Public', 'None']
     },
     {
         message: 'How is your project used?',
@@ -51,8 +53,6 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {

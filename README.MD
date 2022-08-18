@@ -1,12 +1,12 @@
-# README generator
+# README Generator
+  
+  copywrite: 2022
 
   Creator: Craig Bailey
 
   ## Description
 
-  The README generator was created to allow for quick and easy README generation. The     
-title, usage who works on it, how to test and contribute, how to install, and a place to contact the author of the project is addded if    
-provided
+  uses the terminal and inquirer to ask questions and generate a readme file
 
   ## Table of Contents
 
@@ -19,11 +19,11 @@ provided
 
   ## Usage
 
-  run the code and it allows for the input of a few different options to create a quality README
+  run the file through the terminal with node and anwser the questions
 
   ## License
 
-  MIT
+  Project is licensed under the terms of 
 
   ## Installation
 
@@ -40,3 +40,4 @@ provided
   ## Email
 
   If you have any questions or concerns, please Contact me joe_bob_21@hotmail.com
+  Github: CJBailey21
